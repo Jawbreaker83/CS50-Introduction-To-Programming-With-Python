@@ -9,6 +9,7 @@ def main():
 
 def sheep(n):
     for i in range(n):
+        #Key word yield 
         yield "🐑" * i
 
 
